@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Российское производство застежек-молний ALY. Собственное производство на территории России. Срок изготовления 10 дней. 600+ цветов, тракторные, спиральные, металлические молнии. Оптовые и мелкооптовые поставки швейной фурнитуры.">
+    <title>Застежки-молнии ALY</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="icon" type="image/png" href="images/icons/icon16.png"> -->
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Перейти к основному контенту</a>
+
+  <header>
+    <div class="wrapper">
+      <a href="index.html" aria-label="Главная страница ALY">
+        <picture>
+          <source srcset="images/resourse/big_logo_m.png" media="(min-width: 768px)">
+          <img class="nav__logo" src="images/resourse/logo.png" alt="ALY">
+        </picture>
+      </a>
+      <nav class="header-nav" aria-label="Основная навигация">
+        <ul class="header-nav__list">
+          <li><a href="index.html" class="header-nav__home"><img src="images/resourse/home_d.svg" alt=""><span class="sr-only">Главная</span></a></li>
+          <li><a href="#about">О КОМПАНИИ</a></li>
+          <li><a href="#production" class="header-nav__production">ПРОИЗВОДСТВО</a></li>
+          <li><a href="#services">УСЛУГИ</a></li>
+          <li><a href="#order">ЗАКАЗАТЬ</a></li>
+          <li><a href="#delivery">ДОСТАВКА И ОПЛАТА</a></li>
+          <li><a href="#contacts">КОНТАКТЫ</a></li>
+        </ul>
+        <div class="header-nav__actions">
+          <div class="header-nav__messengers" role="group" aria-label="Связаться в мессенджерах">
+            <a class="header-nav__messenger" href="#" target="_blank" rel="noopener noreferrer" aria-label="Написать в Telegram">
+              <img src="images/resourse/telegram.svg" alt="" aria-hidden="true">
+            </a>
+            <a class="header-nav__messenger" href="#" target="_blank" rel="noopener noreferrer" aria-label="Написать в WhatsApp">
+              <img src="images/resourse/whatsap.svg" alt="" aria-hidden="true">
+            </a>
+          </div>
+          <div class="header-nav__contacts">
+            <a class="header-nav__phone" href="tel:84955005056">+7(495) <span>500-50-56</span></a>
+            <a class="header-nav__callback" href="#order">Заказать звонок</a>
+          </div>
+          <button class="nav__menu-btn" type="button" aria-label="Открыть меню"><img class="burger" src="images/resourse/burger.svg" alt=""><span class="sr-only">Открыть меню</span></button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="section--hero" aria-label="Главная секция">
+      <div class="wrapper hero-wrapper">
+        <div class="hero-content">
+          <p class="hero-label">РОССИЙСКОЕ ПРОИЗВОДСТВО</p>
+          <div class="hero-heading">
+            <h1>ЗАСТЕЖКИ-МОЛНИИ</h1>
+            <div class="hero-stat" role="group" aria-label="20 лет безупречной работы">
+              <img class="hero__20" src="images/resourse/20.svg" alt="" fetchpriority="high">
+            </div>
+          </div>
+          <ul class="hero-highlights">
+            <li><img class="hero__circle" src="images/resourse/circle.svg" alt="" aria-hidden="true">Срок производства – 10 рабочих дней</li>
+            <li><img class="hero__circle" src="images/resourse/circle.svg" alt="" aria-hidden="true">Более 20 лет на рынке производства швейной фурнитуры</li>
+            <li><img class="hero__circle" src="images/resourse/circle.svg" alt="" aria-hidden="true">Крупнейший российский производитель застежек-молний</li>
+            <li><img class="hero__circle" src="images/resourse/circle.svg" alt="" aria-hidden="true">Собственное производство покраски тесьмы и пулеров</li>
+          </ul>
+          <p class="hero-subtitle">Собственное производство на территории России, оптовые и мелкооптовые поставки швейной фурнитуры, застежки-молнии оптом.</p>
+          <div class="hero-badges" role="group" aria-label="Режим работы и доставка">
+            <img class="hero__img-bottom" src="images/resourse/time.svg" alt="Время работы с 10:00 до 18:00">
+            <a href="#delivery"><img class="hero__img-bottom" src="images/resourse/delivery.svg" alt=""><span class="sr-only">Доставка по всей России</span></a>
+          </div>
+        </div>
+        <div class="hero-form">
+          <div class="hero-form__container">
+            <h3>Быстрая заявка</h3>
+            <form class="form--request form--hero" action="#" method="post" autocomplete="on" novalidate>
+              <label for="hero-name">Введите ваше имя*</label>
+              <div class="form__field">
+                <input
+                  type="text"
+                  id="hero-name"
+                  name="name"
+                  autocomplete="name"
+                  required
+                >
+              </div>
+              <label for="hero-phone">Введите телефон*</label>
+              <div class="form__field">
+                <input
+                  type="tel"
+                  id="hero-phone"
+                  name="phone"
+                  autocomplete="tel"
+                  inputmode="tel"
+                  pattern="^\+?7\s?\(?\d{3}\)?\s?\d{3}[-\s]?\d{2}[-\s]?\d{2}$"
+                  required
+                >
+              </div>
+              <button class="form__button form__button--hero" type="submit">ОТПРАВИТЬ ЗАЯВКУ</button>
+            </form>
+            <p class="hero-form__info">Оставьте заявку и менеджер обязательно свяжется с Вами в ближайшее время</p>
+          </div>
+          <div class="hero-form__privacy-wrapper">
+            <p class="hero-form__privacy">Нажимая на кнопку «Отправить заявку», Вы даете согласие на <a href="#">обработку персональных данных</a> и соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrapper main-wrapper">
+      <div class="main-content-wrapper">
+        <div class="main-content">
+        <section class="section--about" id="about" aria-labelledby="about-heading">
+          <div class="about-content">
+            <h2 id="about-heading" class="section-title">Производство застежек-молний</h2>
+            <p class="section-text about__p-top">
+              Закажите застежки-молнии сегодня и получите готовые через 10 дней
+              600+ цветов, тракторные, спиральные, металлические. Минимальный заказ от 100 шт.
+              Пуллеры с Вашим логотипом
+            </p>
+            <p class="section-text about__p-bottom">
+              Мы изготавливаем застежки-молнии полностью от литья до покраски.
+              Мощность производства более 1 миллиона молний в месяц.
+              Срок изготовления заказа 10 дней.
+            </p>
+            <p class="section-text about__p-bottom">Наша компания первая среди производителей молний в России открыла собственный красильный участок.
+              Мы запустили красильное производство в 2006 году. 
+              Сейчас окрашиваем молнии в более чем 600 цветов по собственной цветовой карте.
+            </p>
+            <a href="#"> Подробнее >>></a>
+          </div>
+        </section>
+
+        <section class="section--types" id="production" aria-labelledby="production-heading">
+          <div class="bg_h2"><h2 id="production-heading" class="section-title"> Застежка молния на заказ</h2></div>
+        <p class="types__p-top section-text">
+          Закажите застежки-молнии сегодня и получите готовые через 10 дней
+          600+ цветов, тракторные, спиральные, металлические. Минимальный заказ от 100 шт.
+          Пуллеры с Вашим логотипом
+        </p>
+        <ul class="types--list">
+          <li>
+            <div>
+              <a class="types--list__title">Тракторные молнии</a>
+              <p class="types--list__desc">Тракторная застёжка по форме отдалённо напоминает гусеницу трактора</p>
+            </div>
+            <div class="types--list__thumb"><img src="images/resourse/tractor-zip_m.jpeg" alt="Тракторная молния" class="types--list__img"></div>
+          </li>
+          <li>
+            <div>
+              <a class="types--list__title">Спиральные молнии</a>
+              <p class="types--list__desc">Спиральная делается из завёрнутого в спираль синтетического волокна</p>
+            </div>
+            <div class="types--list__thumb"><img src="images/resourse/spiral-zip_m.jpeg" alt="Спиральная молния" class="types--list__img"></div>
+          </li>
+          <li>
+            <div>
+              <a class="types--list__title">Металлические молнии</a>
+              <p class="types--list__desc">Металлическая застёжка похожа на тракторную, но зубья сделаны из металла</p>
+            </div>
+            <div class="types--list__thumb"><img src="images/resourse/iron-zip_m.jpeg" alt="Металлическая молния" class="types--list__img"></div>
+          </li>
+          <li class="types__bottom-block">
+            <h3>Готовые молнии через 10 дней</h3>
+            <p class="types__p-bottom">
+              Закажите застежки-молнии сегодня и получите
+              готовые через 10 дней. 600+ цветов, тракторные,
+              спиральные, металлические. Минимальный заказ
+              от 100 шт. Пуллеры с Вашим логотипом
+            </p>
+            <a class="types__a-bottom" href="#"> Подробнее >>></a>
+          </li>
+        </ul>
+        </section>
+
+        <section class="section--custom" id="services" aria-labelledby="services-heading">
+          <div class="bg_h2"><h2 id="services-heading" class="section-title"> Нестандартные и комбинированные варианты молний</h2></div>
+        <p class="section-text">Нестандартные молнии помогают производителям одежды выделить свою продукцию на фоне конкурентов и повысить продажи</p>
+        <ul class="custom--list">
+          <li><img src="images/resourse/CombinedColors.webp" alt="Комбинированные цвета молний" class="list__img"> Комбинированные цвета</li>
+          <li><img src="images/resourse/UniqueTeeth.webp" alt="Необычные варианты зубьев молний" class="list__img"> Необычные варианты зубьев</li>
+          <li><img src="images/resourse/InterestingLinkShape.webp" alt="Интересная форма звеньев молний" class="list__img"> Интересная форма звеньев</li>
+          <li><img src="images/resourse/DeluxeTooth.webp" alt="Эксклюзивный зуб Deluxe для молний" class="list__img"> Эксклюзивный зуб "Deluxe"</li>
+        </ul>
+        </section>
+
+        <section class="section--sliders" aria-labelledby="sliders-heading">
+          <div class="bg_h2"><h2 id="sliders-heading" class="section-title"> Огромное количество вариантов пуллеров</h2></div>
+        <p class="sliders__p-top section-text">Мы изготавливаем пуллеры из ПВХ или металла с Вашей символикой</p>
+        <div class="sliders__info surface-card">
+          <div class="sliders__info-content">
+            <h3>Брендирование и нанесение логотипов</h3>
+            <p class="sliders__p-green section-text">Мы изготавливаем пуллеры из ПВХ или металла с Вашей символикой.</p>
+            <p class="section-text">Срок исполнения до 3-х недель ПВХ и до 5-ти недель металл. Минимальный заказ пуллеров с логотипом от 2 500 шт. ПВХ и от 10 000 шт. из металла.</p>
+          </div>
+          <div class="sliders__info-image">
+            <img src="images/resourse/brend-puller.webp" alt="Брендированные пуллеры" class="sliders__info-img">
+          </div>
+        </div>
+        <ul class="sliders--list">
+          <li>
+            <figure>
+              <img src="images/resourse/plastic-puller.png" alt="Пластиковый пуллер" class="sliders--list__img">
+              <figcaption>Пластиковые<br>пуллеры</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/resourse/textile-puller.png" alt="Текстильный пуллер" class="sliders--list__img">
+              <figcaption>Текстильные<br>пуллеры</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="images/resourse/reflectiv-puller.png" alt="Светоотражающий пуллер" class="sliders--list__img">
+              <figcaption>Светоотражающие<br>пуллеры</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <figcaption class="sliders__figcaption-black">Металлические<br>пуллеры</figcaption>
+            </figure>
+          </li>
+        </ul>
+        <a href="#">Посмотреть весь каталог</a>
+        </section>
+        </div>
+      </div>
+      <aside class="about-sidebar" aria-label="Дополнительная информация">
+        <nav class="sidebar-nav">
+          <h3>Производство</h3>
+          <ul class="sidebar-nav__list">
+            <li><a href="#">Тракторные молнии</a></li>
+            <li><a href="#">Спиральные молнии</a></li>
+            <li><a href="#">Металлические молнии</a></li>
+            <li>
+              <a href="#" class="sidebar-nav__toggle">
+                Слайдеры
+                <span class="sidebar-nav__icon sidebar-nav__icon--plus">+</span>
+              </a>
+            </li>
+            <li class="sidebar-nav__item--expanded">
+              <a href="#" class="sidebar-nav__toggle">
+                Пуллеры
+                <span class="sidebar-nav__icon sidebar-nav__icon--minus">−</span>
+              </a>
+              <ul class="sidebar-nav__sublist">
+                <li><a href="#">Металлические</a></li>
+                <li><a href="#">Текстильные</a></li>
+                <li><a href="#">Светоотражающие</a></li>
+                <li><a href="#">Пластиковые</a></li>
+                <li><a href="#">С логотипом</a></li>
+                <li><a href="#">Под заказ</a></li>
+                <li><a href="#">Распродажа</a></li>
+              </ul>
+            </li>
+          </ul>
+            <h3>Услуги</h3>
+            <ul class="sidebar-nav__list">
+            <li><a href="#">Окраска тесьмы</a></li>
+            <li><a href="#">Нанесение логотипов</a></li>
+          </ul>
+        </nav>
+        <div class="sidebar-content">
+          <div class="sidebar-content__block sidebar-content__block--sale">
+            <img src="images/resourse/sale.png" alt="Товары для отдыха" class="sidebar-content__img">
+          </div>
+          <div class="sidebar-content__block sidebar-content__block--eco">
+            <img src="images/resourse/eco.png" alt="Экологичные товары" class="sidebar-content__img">
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <section class="section--form" id="order" aria-labelledby="order-heading">
+      <div class="wrapper">
+        <h2 id="order-heading" class="section-title">Быстрая заявка на производство молний</h2>
+        <p class="form__p-top section-text">Оставьте свой номер и наши специалисты свяжутся с Вами в ближайшее время</p>
+        <form class="form--request" action="#" method="post" autocomplete="on" novalidate>
+          <label for="name">Как к Вам обратиться?</label>
+          <div class="form__field">
+            <img class="form__icon" src="images/resourse/users.svg" alt="" aria-hidden="true">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Имя или имя отчество"
+              autocomplete="name"
+              required
+            >
+          </div>
+          <label for="phone">Номер телефона</label>
+          <div class="form__field">
+            <img class="form__icon" src="images/resourse/phone-yellow.svg" alt="" aria-hidden="true">
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+7 (___) ___-__-__"
+              autocomplete="tel"
+              inputmode="tel"
+              pattern="^\+?7\s?\(?\d{3}\)?\s?\d{3}[-\s]?\d{2}[-\s]?\d{2}$"
+              required
+            >
+          </div>
+          <button class="form__button" type="submit">Отправить заявку</button>
+        </form>
+        <p>Нажимая на кнопку «Отправить заявку», Вы даете согласие на 
+          <a href="#">обработку персональных данных</a>
+          и соглашаетесь с 
+          <a href="#">политикой конфиденциальности</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="section--news" aria-labelledby="news-heading">
+      <div class="wrapper">
+        <div class="bg_h2"><h2 id="news-heading" class="section-title">Свежие новости <span>и публикации</span></h2></div>
+        <p class="news__p-top section-text">Вы найдете интересные факты о производстве
+          застежек-молний, полезные познавательные
+          статьи и публикации в рамках тематики и многое
+          другое, а так же новости и события нашей
+          индустрии.
+        </p>
+        <ul class="list--news">
+          <li class="list__item">
+            <article class="news-card surface-card" aria-labelledby="news-1-title">
+              <div class="news__media">
+                <img src="images/resourse/tractor-delux.webp" alt="Тракторная молния" class="news__img">
+                <h3>СТАТЬИ</h3>
+              </div>
+              <div class="news-card__content">
+                <h4 class="list__title" id="news-1-title">Тракторная молния звено Deluxe</h4>
+                <p>Тракторная молния Deluxe - то что нужно производителям одежды.</p>
+                <p>Секрет успеха дизайнерских брендов в качественной фурнитуре. Тракторная молния Deluxe выгодный вариант для стильной одежды.</p>
+              </div>
+            </article>
+          </li>
+          <li class="list__item">
+            <article class="news-card surface-card" aria-labelledby="news-2-title">
+              <div class="news__media">
+                <img src="images/resourse/universal.webp" alt="Крепление на пуллер" class="news__img">
+                <h3>СОБЫТИЯ</h3>
+              </div>
+              <div class="news-card__content">
+                <h4 class="list__title" id="news-2-title">Универсальное крепление на текстильный пуллер</h4>
+                <p>Представляем вашему вниманию универсальные
+                  и удобные переходники для крепления текстильных пуллеров,
+                  которые прекрасно разнообразят любую вашу коллекцию.
+                </p>
+              </div>
+            </article>
+          </li>
+          <li class="list__item">
+            <article class="news-card surface-card" aria-labelledby="news-3-title">
+              <div class="news__media">
+                <img src="images/resourse/camouflage.png" alt="Пуллер" class="news__img">
+                <h3>НОВОСТИ</h3>
+              </div>
+              <div class="news-card__content">
+                <h4 class="list__title" id="news-3-title">Текстильный пуллер "камуфляж"</h4>
+                <p>Специально для производителей
+                  спецодежды и СИЗ, наша команда
+                  дизайнеров разработала новую линейку
+                  фурнитуры c расцветкой "камуфляж".
+                </p>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <a href="#" class="section--news__a">ПОСМОТРЕТЬ ВСЕ ПУБЛИКАЦИИ</a>
+      </div>
+    </section>
+    <div id="delivery" class="sr-only" aria-hidden="true"></div>
+    <div class="map-office-container" role="region" aria-label="Адрес производства AlyZip">
+      <div class="map-container">
+        <iframe 
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae153e26ed8e0db3d2036f95e7c1c74b895bcb733c4544acc73eda913d2474a03&amp;source=constructor" 
+          width="320" 
+          height="200" 
+          title="map">
+        </iframe>      </div>
+      <div class="office-image-container">
+        <img src="images/resourse/office.webp" alt="Офис компании" class="office-image">
+      </div>
+    </div>
+  </main>
+
+  <footer id="contacts">
+    <div class="wrapper footer-grid" role="region" aria-label="Контакты компании">
+      <div class="footer-brand">
+        <picture>
+          <source srcset="images/resourse/big_logo.png" media="(min-width: 1170px)">
+          <img class="footer__logotype" src="images/resourse/big_logo_m.png" alt="ALY">
+        </picture>
+        <p class="section-text">Производство застежек-молний и швейная
+          фурнитура - основное направление деятельности
+          нашей компании. Собственное производство на
+          территории России, оптовые и мелкооптовые
+          поставки швейной фурнитуры. Производство и 
+          продажа застежек-молний оптом.
+        </p>
+        <p class="section-text">Производственное предприятие "AlyZip" на
+          сегодняшний день самый крупный и
+          востребованный производитель застежек-молний
+          на территории России и СНГ.
+        </p>
+      </div>
+      <div class="footer-contacts">
+        <h3>Контактная информация</h3>
+        <ul class="footer-contact-list">
+          <li class="footer__contact-item">
+            <img src="images/resourse/geo.svg" alt="" aria-hidden="true">
+            <p>171533, г. Кимры, ул. Мира, дом 29А</p>
+          </li>
+          <li class="footer__contact-item">
+            <img src="images/resourse/phone.svg" alt="" aria-hidden="true">
+            <a href="tel:84955005056">+7 (495) <span>500-50-56</span> (Telegram. WhatsApp)</a>
+          </li>
+          <li class="footer__contact-item">
+            <img src="images/resourse/clock.svg" alt="" aria-hidden="true">
+            <p>пн-пт 08:00 до 20:00</p>
+          </li>
+          <li class="footer__contact-item">
+            <img src="images/resourse/e-mail.svg" alt="" aria-hidden="true">
+            <a href="mailto:info@aly.ru">info@alyzip.ru</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <nav class="footer__links" aria-label="Навигация по страницам">
+          <a href="dashboard.html">Информационная панель</a>
+          <a href="gallery.html">Галерея</a>
+          <a href="form.html">Форма</a>
+        </nav>
+        <nav class="footer__media" aria-label="Социальные сети">
+          <a href="#" aria-label="ВКонтакте"><img src="images/resourse/vkontakte.svg" alt=""><span class="sr-only">ВКонтакте</span></a>
+          <a href="#" aria-label="Instagram"><img src="images/resourse/instagram_m.png" alt=""><span class="sr-only">Instagram</span></a>
+          <a href="#" aria-label="Facebook"><img src="images/resourse/facebook.svg" alt=""><span class="sr-only">Facebook</span></a>
+          <a href="#" aria-label="YouTube"><img src="images/resourse/youtube.svg" alt=""><span class="sr-only">YouTube</span></a>
+        </nav>
+      </div>
+    </div>
+    <div class="wrapper footer-bottom">
+      <p class="footer__p-bottom footer__p-bottom--left">Российское производство застежек-молний "AlyZip" © 2020<br>
+        Все права защищены
+      </p>
+      <p class="footer__p-bottom footer__p-bottom--right">
+        Разработка высоконагруженных интернет проектов любой сложности<br> 
+        Комплексное маркетинговое сопровождение<br>
+        <a href = "http://absolut-marketing.ru" class="footer__a-bottom">http://absolut-marketing.ru</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- нижняя панель мобильной версии -->
+  <nav class="bottom_mobile-nav" aria-label="Мобильная навигация">
+    <ul class="bottom_mobile-nav__list">
+      <li class="bottom_mobile-nav__item">
+        <a href="#" class="bottom_mobile-nav__link">
+          <img src="images/resourse/house.svg" alt="" aria-hidden="true">
+          главная
+        </a>
+      </li>
+      <li class="bottom_mobile-nav__item">
+        <a href="#" class="bottom_mobile-nav__link">
+          <img src="images/resourse/zipper.svg" alt="" aria-hidden="true">
+          каталог
+        </a>
+      </li>
+      <li class="bottom_mobile-nav__item">
+        <a href="tel:+7(495)500-50-56" class="bottom_mobile-nav__link">
+          <img class="bottom_mobile-nav__phone" src="images/resourse/mob-tel.svg" alt="" aria-hidden="true"><span class="sr-only">Позвонить</span>
+        </a>
+      </li>
+      <li class="bottom_mobile-nav__item">
+        <a href="#" class="bottom_mobile-nav__link">
+          <img src="images/resourse/busket.svg" alt="" aria-hidden="true">
+          заказать
+        </a>
+      </li>
+      <li class="bottom_mobile-nav__item">
+        <a href="#" class="bottom_mobile-nav__link">
+          <img src="images/resourse/contact.svg" alt="" aria-hidden="true">
+          контакты
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</body>
+</html>

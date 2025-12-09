@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея - ALY</title>
+    <link rel="preload" as="font" href="fonts/Roboto/static/Roboto-Bold.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="gallery-page">
+  <a href="#main-content" class="skip-link">Перейти к основному контенту</a>
+
+  <header>
+    <div class="wrapper">
+      <a href="index.html" aria-label="Главная страница ALY">
+        <picture>
+          <source srcset="images/resourse/big_logo_m.png" media="(min-width: 768px)">
+          <img class="nav__logo" src="images/resourse/logo.png" alt="ALY">
+        </picture>
+      </a>
+      <nav class="header-nav" aria-label="Основная навигация">
+        <ul class="header-nav__list">
+          <li><a href="index.html" class="header-nav__home"><img src="images/resourse/home_d.svg" alt=""><span class="sr-only">Главная</span></a></li>
+          <li><a href="index.html#about">О КОМПАНИИ</a></li>
+          <li><a href="index.html#production" class="header-nav__production">ПРОИЗВОДСТВО</a></li>
+          <li><a href="index.html#services">УСЛУГИ</a></li>
+          <li><a href="index.html#order">ЗАКАЗАТЬ</a></li>
+          <li><a href="index.html#delivery">ДОСТАВКА И ОПЛАТА</a></li>
+          <li><a href="index.html#contacts">КОНТАКТЫ</a></li>
+        </ul>
+        <div class="header-nav__actions">
+          <div class="header-nav__messengers" aria-label="Связаться в мессенджерах">
+            <a class="header-nav__messenger" href="#" target="_blank" rel="noopener noreferrer" aria-label="Написать в Telegram">
+              <img src="images/resourse/telegram.svg" alt="" aria-hidden="true">
+            </a>
+            <a class="header-nav__messenger" href="#" target="_blank" rel="noopener noreferrer" aria-label="Написать в WhatsApp">
+              <img src="images/resourse/whatsap.svg" alt="" aria-hidden="true">
+            </a>
+          </div>
+          <div class="header-nav__contacts">
+            <a class="header-nav__phone" href="tel:84955005056">+7(495) <span>500-50-56</span></a>
+            <a class="header-nav__callback" href="index.html#order">Заказать звонок</a>
+          </div>
+          <button class="nav__menu-btn" type="button" aria-label="Открыть меню"><img class="burger" src="images/resourse/burger.svg" alt=""><span class="sr-only">Открыть меню</span></button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="wrapper">
+      <h2>Галерея</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/resourse/tractor-zip_m.jpeg" alt="Изображение 1" class="gallery-img">
+          <a href="#" class="gallery-button">Подробнее</a>
+        </div>
+        <div class="gallery-item">
+          <img src="images/resourse/spiral-zip_m.jpeg" alt="Изображение 2" class="gallery-img">
+          <a href="#" class="gallery-button">Подробнее</a>
+        </div>
+        <div class="gallery-item">
+          <img src="images/resourse/iron-zip_m.jpeg" alt="Изображение 3" class="gallery-img">
+          <a href="#" class="gallery-button">Подробнее</a>
+        </div>
+        <div class="gallery-item">
+          <img src="images/resourse/plastic-puller.png" alt="Изображение 4" class="gallery-img">
+          <a href="#" class="gallery-button">Подробнее</a>
+        </div>
+        <div class="gallery-item">
+          <img src="images/resourse/textile-puller.png" alt="Изображение 5" class="gallery-img">
+          <a href="#" class="gallery-button">Подробнее</a>
+        </div>
+        <div class="gallery-item">
+          <img src="images/resourse/reflectiv-puller.png" alt="Изображение 6" class="gallery-img">
+          <a href="#" class="gallery-button">Подробнее</a>
+        </div>
+        <div class="gallery-item">
+          <img src="images/resourse/tractor-delux.png" alt="Изображение 7" class="gallery-img">
+          <a href="#" class="gallery-button">Подробнее</a>
+        </div>
+        <div class="gallery-item">
+          <img src="images/resourse/universal.png" alt="Изображение 8" class="gallery-img">
+          <a href="#" class="gallery-button">Подробнее</a>
+        </div>
+        <div class="gallery-item">
+          <img src="images/resourse/camouflage.png" alt="Изображение 9" class="gallery-img">
+          <a href="#" class="gallery-button">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="contacts">
+    <div class="wrapper footer-grid" aria-label="Контакты компании">
+      <div class="footer-brand">
+        <picture>
+          <source srcset="images/resourse/big_logo.png" media="(min-width: 1170px)">
+          <img class="footer__logotype" src="images/resourse/big_logo_m.png" alt="ALY">
+        </picture>
+        <p class="section-text">Производство застежек-молний и швейная
+          фурнитура - основное направление деятельности
+          нашей компании. Собственное производство на
+          территории России, оптовые и мелкооптовые
+          поставки швейной фурнитуры. Производство и 
+          продажа застежек-молний оптом.
+        </p>
+        <p class="section-text">Производственное предприятие "AlyZip" на
+          сегодняшний день самый крупный и
+          востребованный производитель застежек-молний
+          на территории России и СНГ.
+        </p>
+      </div>
+      <div class="footer-contacts">
+        <h3>Контактная информация</h3>
+        <ul class="footer-contact-list">
+          <li class="footer__contact-item">
+            <img src="images/resourse/geo.svg" alt="" aria-hidden="true">
+            <p>171533, г. Кимры, ул. Мира, дом 29А</p>
+          </li>
+          <li class="footer__contact-item">
+            <img src="images/resourse/phone.svg" alt="" aria-hidden="true">
+            <a href="tel:84955005056">+7 (495) <span>500-50-56</span> (Telegram. WhatsApp)</a>
+          </li>
+          <li class="footer__contact-item">
+            <img src="images/resourse/clock.svg" alt="" aria-hidden="true">
+            <p>пн-пт 08:00 до 20:00</p>
+          </li>
+          <li class="footer__contact-item">
+            <img src="images/resourse/e-mail.svg" alt="" aria-hidden="true">
+            <a href="mailto:info@aly.ru">info@alyzip.ru</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-links-group">
+        <nav class="footer__links" aria-label="Навигация по страницам">
+          <a href="dashboard.html">Информационная панель</a>
+          <a href="gallery.html">Галерея</a>
+          <a href="form.html">Форма</a>
+        </nav>
+        <nav class="footer__media" aria-label="Социальные сети">
+          <a href="#" aria-label="ВКонтакте"><img src="images/resourse/vkontakte.svg" alt=""><span class="sr-only">ВКонтакте</span></a>
+          <a href="#" aria-label="Instagram"><img src="images/resourse/instagram_m.png" alt=""><span class="sr-only">Instagram</span></a>
+          <a href="#" aria-label="Facebook"><img src="images/resourse/facebook.svg" alt=""><span class="sr-only">Facebook</span></a>
+          <a href="#" aria-label="YouTube"><img src="images/resourse/youtube.svg" alt=""><span class="sr-only">YouTube</span></a>
+        </nav>
+      </div>
+    </div>
+    <div class="wrapper footer-bottom">
+      <p class="footer__p-bottom footer__p-bottom--left">Российское производство застежек-молний "AlyZip" © 2020<br>
+        Все права защищены
+      </p>
+      <p class="footer__p-bottom footer__p-bottom--right">
+        Разработка высоконагруженных интернет проектов любой сложности<br> 
+        Комплексное маркетинговое сопровождение<br>
+        <a href = "http://absolut-marketing.ru" class="footer__a-bottom">http://absolut-marketing.ru</a>
+      </p>
+    </div>
+  </footer>
+
+  <nav class="bottom_mobile-nav" aria-label="Мобильная навигация">
+    <ul class="bottom_mobile-nav__list">
+      <li class="bottom_mobile-nav__item">
+        <a href="index.html" class="bottom_mobile-nav__link">
+          <img src="images/resourse/house.svg" alt="" aria-hidden="true">
+          главная
+        </a>
+      </li>
+      <li class="bottom_mobile-nav__item">
+        <a href="#" class="bottom_mobile-nav__link">
+          <img src="images/resourse/zipper.svg" alt="" aria-hidden="true">
+          каталог
+        </a>
+      </li>
+      <li class="bottom_mobile-nav__item">
+        <a href="tel:+7(495)500-50-56" class="bottom_mobile-nav__link">
+          <img class="bottom_mobile-nav__phone" src="images/resourse/mob-tel.svg" alt="" aria-hidden="true"><span class="sr-only">Позвонить</span>
+        </a>
+      </li>
+      <li class="bottom_mobile-nav__item">
+        <a href="#" class="bottom_mobile-nav__link">
+          <img src="images/resourse/busket.svg" alt="" aria-hidden="true">
+          заказать
+        </a>
+      </li>
+      <li class="bottom_mobile-nav__item">
+        <a href="#" class="bottom_mobile-nav__link">
+          <img src="images/resourse/contact.svg" alt="" aria-hidden="true">
+          контакты
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</body>
+</html>
+
